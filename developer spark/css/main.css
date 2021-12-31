@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;602;802&family=Mulish:ital,wght@0,300;0,800;1,500&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+
+.about-us {
+    color: #324B4C;
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0.5em 25px;
+    padding-top: 15%;
+    font-weight: 602;
+  }
+ 
+
+
+  .devs {
+      margin: 0 25px;
+  }
+  main ul {
+    display: inline-flex;
+  }
+
+  main li {
+    font-size: 2em;
+    font-family: 'Mulish', sans-serif;
+    margin: 0 0.2em;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-decoration-color: #00A97F;
+  }
+
+
+  .working-img{
+    width: 50em;
+    opacity:0;
+    position: absolute;
+    left: 45em;
+    margin-top: 15em;
+    animation: load_up 2s forwards;
+    -webkit-animation:load_up 2s forwards;
+}
+
+@keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
+}@-webkit-keyframes load_up{
+    from{opacity:0;top:100%}
+    to{opacity:1;top:0%;}
+    
+}
+
+
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

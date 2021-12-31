@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;602;802&family=Mulish:ital,wght@0,300;0,800;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web-devs {
+    margin-top: 25em;
+    background-color: #000;
+    color: #fff;
+    padding: 1.3em 0;
+}
+
+.web-devs h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.8em;
+    font-weight: 200;
+    padding: 0;
+    text-decoration-color: #00A97F;
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+
+  #myBtnContainer {
+      display: inline-flex;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 20px 50px;
+    margin: 0 1.5em;
+    margin-top: 1em;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12); ;
+    transition: 0.3s ease;
+    font-size: 2em;
+    font-family: 'Bitter', sans-serif;
+    font-weight: 600;
+  }
+
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: #DFEEEE;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+    color: #00A97F;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #00A97F;
+     color: white;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+     0 2px 2px rgba(0,0,0,0.12), 
+     0 4px 4px rgba(0,0,0,0.12), 
+     0 8px 8px rgba(0,0,0,0.12),
+     0 16px 16px rgba(0,0,0,0.12);
+  }

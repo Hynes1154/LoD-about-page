@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Mulish:ital,wght@0,300;0,800;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+}
+
+li a{
+    text-decoration: none;
+}
+nav {
+    font-family: monospace;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: inline-flex;
+    float: right;
+}
+
+nav ul li a{
+    color: rgb(242, 242, 242);
+    font-size: 25px;
+    padding: 0 25px;
+    position: relative;
+}
+
+nav ul li a {
+    color: rgb(242, 242, 242);
+}
+
+nav .logo {
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li .one::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 1;
+    left: 0;
+    background-color: #00A97F;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+  }
+
+nav ul li .one:hover::before {
+    transform: scaleX(1);
+  }
+
+  nav ul li .four::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #00A97F;
+        transform: scaleX(0);
+        transform-origin: top right;
+        transition: transform 0.3s ease;
+  }
+
+nav ul li .four:hover::before {
+    transform: scaleX(1);
+  }
+
+ nav ul li .two::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00A97F;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+ nav ul li .two:hover::before {
+    transform: scaleX(1);
+}
+
+nav ul li .three::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 1;
+    left: 0;
+    background-color: #00A97F;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav ul li .three:hover::before {
+    transform: scaleX(1);
+}
+
+
+nav JavaBlink {
+    color: #00A97F;
+}
+
+nav ul hr {
+    border: 1px solid #00A97F;
+}
